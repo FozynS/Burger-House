@@ -16,17 +16,17 @@
           <nav class="menu">
             <ul class="menu-list">
               <li class="menu-item">
-                <a href="#">Why us</a>
+                <a data-link="why">Why us</a>
               </li>
               <li class="menu-item">
-                <a href="#">Burger menu</a>
+                <a data-link="products">Burger menu</a>
               </li>
               <li class="menu-item">
-                <a href="#">Checkout</a>
+                <a data-link="order">Checkout</a>
               </li>
             </ul>
           </nav>
-          <div class="currency" title="Change currency">$</div>
+          <div class="currency" title="Change currency" id="change-currency">$</div>
         </div>
       </header>
 
@@ -41,7 +41,7 @@
               burgers in the city from selected marble beef.
             </p>
             <div class="main-action">
-              <button class="button">View menu</button>
+              <button class="button" id="main-action-btn">View menu</button>
             </div>
           </div>
           <img src="img/main_burger.png" alt="Big Burger" class="main-img" />
@@ -49,7 +49,7 @@
       </section>
     </section>
 
-    <section class="why">
+    <section class="why" id="why">
       <div class="container">
         <div class="why-title common-title">Why are we chosen?</div>
         <div class="why-items">
@@ -88,7 +88,7 @@
       </div>
     </section>
 
-    <section class="products">
+    <section class="products" id="products">
       <div class="container">
         <div class="products-title common-title">Choose your burger</div>
 
@@ -104,7 +104,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">8 $</div>
+                <div class="products-item-price" data-base-price="8" >8 $</div>
                 <div class="products-item-weight">360 gr</div>
               </div>
               <div class="products-item-action">
@@ -140,7 +140,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">7 $</div>
+                <div class="products-item-price" data-base-price="7">7 $</div>
                 <div class="products-item-weight">390 gr</div>
               </div>
               <div class="products-item-action">
@@ -176,7 +176,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">10 $</div>
+                <div class="products-item-price" data-base-price="10">10 $</div>
                 <div class="products-item-weight">420 gr</div>
               </div>
               <div class="products-item-action">
@@ -212,7 +212,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">7 $</div>
+                <div class="products-item-price" data-base-price="7">7 $</div>
                 <div class="products-item-weight">220 gr</div>
               </div>
               <div class="products-item-action">
@@ -248,7 +248,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">8 $</div>
+                <div class="products-item-price" data-base-price="8">8 $</div>
                 <div class="products-item-weight">220 gr</div>
               </div>
               <div class="products-item-action">
@@ -284,7 +284,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">9 $</div>
+                <div class="products-item-price" data-base-price="9">9 $</div>
                 <div class="products-item-weight">320 gr</div>
               </div>
               <div class="products-item-action">
@@ -320,7 +320,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">8 $</div>
+                <div class="products-item-price" data-base-price="8">8 $</div>
                 <div class="products-item-weight">280 gr</div>
               </div>
               <div class="products-item-action">
@@ -356,7 +356,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">7 $</div>
+                <div class="products-item-price" data-base-price="7">7 $</div>
                 <div class="products-item-weight">380 gr</div>
               </div>
               <div class="products-item-action">
@@ -393,7 +393,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">11 $</div>
+                <div class="products-item-price" data-base-price="11">11 $</div>
                 <div class="products-item-weight">400 gr</div>
               </div>
               <div class="products-item-action">
@@ -429,7 +429,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">9 $</div>
+                <div class="products-item-price" data-base-price="9">9 $</div>
                 <div class="products-item-weight">300 gr</div>
               </div>
               <div class="products-item-action">
@@ -465,7 +465,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">8 $</div>
+                <div class="products-item-price" data-base-price="8">8 $</div>
                 <div class="products-item-weight">320 gr</div>
               </div>
               <div class="products-item-action">
@@ -501,7 +501,7 @@
             </div>
             <div class="products-item-extra">
               <div class="products-item-info">
-                <div class="products-item-price">9 $</div>
+                <div class="products-item-price" data-base-price="9">9 $</div>
                 <div class="products-item-weight">360 gr</div>
               </div>
               <div class="products-item-action">
@@ -529,7 +529,7 @@
       </div>
     </section>
 
-    <section class="order">
+    <section class="order" id="order">
       <div class="container">
         <div class="order-title common-title">Order placement</div>
         <img
@@ -558,7 +558,7 @@
                 <input type="text" placeholder="Your phone number" />
               </label>
             </div>
-            <button class="button">Place an order</button>
+            <button class="button" id="order-action">Place an order</button>
           </div>
         </div>
       </div>
@@ -572,5 +572,7 @@
         <div class="rights">All rights reserved</div>
       </div>
     </footer>
+  
+  <script src="scripts/script.js"></script>
   </body>
 </html>
